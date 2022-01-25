@@ -1,0 +1,47 @@
+/* COLORS APPLIED TO FULL PAGE */
+
+:root {
+    --teal: #07BEB8;
+    --ballet: #C4C4C4;
+    --midnight: #25283D;
+    --orchid: #8F3985;
+    --powder: #98DFEA;
+    --peach:#EFD9CE;
+    }
+    
+/* DEFAULT STYLES USED */ 
+    * {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 12px;
+        color: white;
+        /* display: grid;
+        grid-template-rows: 1fr; */
+        margin-left: 0px;
+        gap: 5px;
+        padding: 5px;
+        background-color: var(--midnight);
+    }
+/* HEADER */
+
+
+/* NAV BAR */
+a {
+    display: inline;
+    text-decoration: none;
+
+}
+
+/* PROFILE PIC */
+#profile_pic {
+    border-radius: 50%;
+    z-index: 11;
+    margin-left: 0rem;
+    box-shadow: 0 0 0 4px;
+    color: var(--teal);
+  }
+/* TABLET */
+
+/* DESKTOP */
+

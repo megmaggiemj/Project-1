@@ -21,7 +21,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 Essentially I'd like my portfolio site to reflect my personality. A bit of whimsy, a little chaos, and at least one personal fact you didn’t really need to know. Also really clean code. 
 
 I'll be including at least one animated element. Preferably the words "Hello World"
-rotating around a profile picture. I'd also like to have the page. in the mobile view, navigation will be a dropdown hamburger menu and the project section will be a scroll arrow (idk if that's the correct term...)
+rotating around a profile picture. In the mobile view, navigation will be a dropdown hamburger menu and the project section will be a scroll arrow (idk if that's the correct term...)
 
 here are a few keywords and ideas I'm using as inspiration on the design so far. I'm sure this will change though!
 
@@ -33,27 +33,27 @@ Lisa Frank meets Bob's Burgers
 
 The following are sites that I've found inspiring or that have elements I'd like to include in my project. The last link is a codepen portfolio template project I completed a few months ago 
 
-[Link](https://www.kemiadeleke.com)
+https://www.kemiadeleke.com [Link](https://www.kemiadeleke.com)
 
-[Link](https://www.jason.af)
+https://www.jason.af [Link](https://www.jason.af)
 
-[Link](https://moonfarmer.com/?ref=hackernoon.com)
+https://moonfarmer.com/?ref=hackernoon.com [Link](https://moonfarmer.com/?ref=hackernoon.com)
 
-[Link](https://kuon.space/?ref=hackernoon.com#top)
+https://kuon.space/?ref=hackernoon.com#top [Link](https://kuon.space/?ref=hackernoon.com#top)
 
-[Link](https://www.seanhalpin.design)
+https://www.seanhalpin.design [Link](https://www.seanhalpin.design)
 
-[Link](https://lynnandtonic.com/archive/)
+https://lynnandtonic.com/archive/ [Link](https://lynnandtonic.com/archive/)
 
-[Link](https://sanjoo.in)
+https://sanjoo.in [Link](https://sanjoo.in)
 
-[Link](https://coryhughart.com/)
+https://coryhughart.com/ [Link](https://coryhughart.com/)
 
-[Link](https://codepen.io/megmaggiemj/full/NWgjdVP)
+https://codepen.io/megmaggiemj/full/NWgjdVP [Link](https://codepen.io/megmaggiemj/full/NWgjdVP)
 
 
 ## Wireframes
-link to figma wireframe [Link](https://www.figma.com/file/ev5BAG7lgtwYjm9w2GE8JA/Project-1-Wireframe?node-id=0%3A1)
+link to figma wireframe https://www.figma.com/file/ev5BAG7lgtwYjm9w2GE8JA/Project-1-Wireframe?node-id=0%3A1
 
 ## Time/Priority Matrix 
 
@@ -92,25 +92,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
+| About me section  | H | 1hr | hr |
 | Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Contact Form | H | 2.5hr|  hr | 
+| CSS Grid| H | 5hr | hr|
+| Rotating text | H | 2hrs|  hr | 
+| Responsive | H | 5hr | hr | hr |
+| Social Media Icons | L | .5hr |  hr |
+| Total | H | 18 hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Nav Hover | M | 2hr | -hr | hr |
+| Page load animation | L | 3hr | hr |
+| Project section slider | H | 4hr | hr |
+| Hero image/animation | M | 6hr | -hr | hr |
+| Scroll animation | H | 4hr | hr |
+| Text effects | L | 3hr | hr |
+| Total | H | 22 hrs| hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 

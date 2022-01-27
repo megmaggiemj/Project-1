@@ -118,6 +118,9 @@ nav {
     color: var(--midnight);
     font-size: 1.5rem;
   }
+  #projects {
+    max-width: 400px;
+  }
 
   #contact {
     display: inline-flex;

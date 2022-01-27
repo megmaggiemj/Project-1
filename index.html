@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<l<link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- CONTACT/SOCIAL ICONS -->
+  <script src="https://kit.fontawesome.com/9cdb567e04.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <!-- PROFILE PICTURE & CIRCULAR TEXT-->
+    <div class= "circle">
+        <div class="profile-picture" id="profile-picture"></div>
+    <!-- Circular text code via "Online Tutorial" youtube video -->
+        <div class="text">
+            <p>Hello World! - Meagan Jacobs - Web Developer - </p>
+        </div>
+    </div>
+
+    <!-- NAV BAR -->
+        <nav id="nav-bar">
+            <!-- <i class="fas fa-bars"></i>  PLACEHOLDER -- NEEDS TO BE LINKED  -->
+            <a href="" class="nav-link" id="nav-link-about">About Me</a>
+            <a href="#projects" class="nav-link" id="nav-link-projects">Projects</a>
+            <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+        </nav>
+ 
+        <section id="about-me" class="about-me">
+            I'm Meagan, an artist and front-end web developer.
+        </section>
+    <!-- PROJECT SECTION -->
+        <section id="projects" class="projects-section">
+            <div>These are a few of my projects.</div>
+            <a id="lets-disco" href="https://lnkd.in/gT5htVb">Let's Disco 2021 Global Womens Hackathon Winner</a>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="auto" height="auto" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv1BPv0c7is2hrtlVCA5Hws%2FLet's-Disco%3Fnode-id%3D351%253A2927%26starting-point-node-id%3D118%253A3530%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </section>
+
+    <!-- circular text script via youtube link above  -->
+        <script> 
+            const text = document.querySelector('.text p');
+            text.innerHTML = text.innerText.split("").map(
+            (char, i) =>
+            `<span style="transform:rotate(${i * 7.7}deg)">${char}</span>`
+            ).join("")
+        </script>
+    </body>
+    <footer>
+        <section id="contact" class="contact-links">
+            <a 
+               id="profile-link"
+               href="https://github.com/megmaggiemj"
+               target="_blank"
+               class="btn contact-details">
+            <i class="fab fa-github"></i> GitHub</a>
+            <a 
+               id="profile-link"
+               href="https://www.linkedin.com/in/meagan-jacobs-3b374011b/"
+               target="_blank"
+               class="btn contact-details">
+              <i class="fab fa-linkedin"></i> LinkedIn</a>
+        </section>
+    </footer>
+    <script src="app.js" async defer></script>
+</html>

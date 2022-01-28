@@ -14,11 +14,11 @@ const allFacts = document.querySelector(".random-fact");//this is the html eleme
 const megFacts = [ //this is the array of facts to be randomized//
     "Thinks you\'re cool",
     "Eats her vegetables", 
-    "Thinks omelettes are high maintenance scrambled eggs",
+    "Thinks omelettes are just high maintenance scrambled eggs",
     "Loves dill pickles", 
     "Is a cat person",
     "Likes sour candy", 
-    "Drinks a lot of coffee",
+    "Drinks A LOT of coffee",
     "Still watches cartoons",
     "Loves learning new things!",
     "Is excellent at parallel parking", 
@@ -26,7 +26,7 @@ const megFacts = [ //this is the array of facts to be randomized//
     "Can pronounce Worcestershire sauce…sometimes",
     "Needs to go to the dentist",
     "Probably just started a new hobby",
-    "Does not like reality tv" 
+    "Does not like reality TV" 
 ]
 function randomFact() {
     const randomIndex = Math.floor(Math.random() * megFacts.length); //this is the number in the array

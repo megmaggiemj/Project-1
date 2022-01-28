@@ -60,6 +60,7 @@ body {
       border-radius: 50%;
       background: url(https://i.imgur.com/IKWjqNA.jpg);
       background-size: cover;
+      box-shadow: 2px 3px 20px #47403A;
   }  
     @keyframes rotateText {
         0% {

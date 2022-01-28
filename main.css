@@ -1,39 +1,39 @@
 /* COLORS APPLIED TO FULL PAGE */
 
 :root {
-    --teal: #07BEB8;
-    --ballet: #C4C4C4;
-    --midnight: #25283D;
-    --orchid: #8F3985;
-    --mint: #90ffdc;
-    --peach:#EFD9CE;
-    }
-    
+  --teal: #07BEB8;
+  --ballet: #C4C4C4;
+  --midnight: #25283D;
+  --orchid: #8F3985;
+  --mint: #90ffdc;
+  --peach:#EFD9CE;
+  }
+  
 /* DEFAULT STYLES USED */ 
-    * {
-        font-family: 'Roboto Mono', monospace;
-        font-weight: 400;
-        line-height: 1.5;
-        font-size: 12px;
-        color: white;
-        /* display: grid;
-        grid-template-rows: 1fr; */
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;;
-    }
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-image: url(https://images.unsplash.com/photo-1498511133332-ad66b117f533?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=402&q=80);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-y: center;
-        /* background-color: var(--mint); */
-        padding: 10px;
-    }
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 12px;
+    color: white;
+    /* display: grid;
+    grid-template-rows: 1fr; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1498511133332-ad66b117f533?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=402&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  /* background-color: var(--mint); */
+  padding: 10px;
+}
     /* CIRCLE/ROTATING TEXT VIA YOUTUBE - FULL LINK IN HTML */
     .circle {
         position: relative;
@@ -76,60 +76,47 @@
         font-size: 1.2em;
         transform-origin: 0 100px;
     }
-a {
-    display: inline;
+  a {
     text-decoration: none;
 }
 nav {
-    margin-right: 2rem;
-    display: inline-flex;
-    justify-content: flex-end;
-    position: fixed;
-    height: 40px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    text-shadow: 2px 2px 3px black;
-  }
+  margin-right: 2rem;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  text-shadow: 2px 2px 3px black;
+}
   
-  .nav-link {
-    display: inline-flex;
-    margin-right: 2rem;
-    padding: 5px 10px;
-    text-shadow: 2px 2px 3px black;
-    font-size: 2rem;
-    
-    /* color: var(--main-gray); */
-  }
-  /* .nav-link:hover {
-    background: var();
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-  } */
-
-/* PROFILE PIC */
-/* #profile_pic {
-    border-radius: 50%;
-    z-index: 11;
-    margin-left: 0rem;
-    box-shadow: 2px 2px 3px black;
-
-  } */
+.nav-link {
+  display: inline-flex;
+  margin-right: 2rem;
+  padding: 5px 10px;
+  text-shadow: 2px 2px 3px black;
+  font-size: 1.5rem;
+  
+  /* color: var(--main-gray); */
+}
 
   /* ADD ANOTHER ROW IF ADDING TEXT DIV*/
-  .master-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    display: grid;
-  }
-  #about-me {
-    color: var(--midnight);
-    font-size: 1.5rem;
-  }
-/*   
-  #projects {
-    max-width: 400px;
-  }  */
+.master-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  display: grid;
+}
+#about-me {
+  color: var(--midnight);
+  font-size: 1.5rem;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
+}
+
 .first-container {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
@@ -141,11 +128,16 @@ nav {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.about-me {
+/* .about-me {
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: center;
   align-self: center;
+} */
+.random-fact {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 3px black;
+  margin-top: 20px;
 }
 .grid-container {
   grid-template-columns: 1fr 1fr 1fr;
@@ -154,11 +146,17 @@ nav {
   grid-gap: 5px;
   grid-row: 2/3;
 }
-.projects {
+.projects {     /*project text before images */
   grid-row: 1/2;
   grid-column: 1/4;
   justify-self: center;
   align-self: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+ font-size: 1.5rem;
+ text-shadow: 2px 2px 3px grey;
 }
 .project1 {
   grid-column: 1/4;
@@ -173,27 +171,36 @@ nav {
   justify-self: center;
 }
 
-  #contact {
-    /* display: inline-flex; */
-    /* height: 200px; */
-    width: 100%;
-    grid-row: 3/4;
-    
-  }
-
-  .contact-links {
-    font-size: 10rem;
-    text-shadow: 2px 2px 3px black;
-    /* margin-right: 4rem; */
-    /* display: ie-flexnlin; */
-    /* height: 200px; */
-    width: 100%;
-  }
-  .fa-github, .fa-linkedin {
-    font-size: 2rem;
-    color: white;
-  }
+#contact {
+  /* display: inline-flex; */
+  /* height: 200px; */
+  width: 100%;
+  grid-row: 3/4;
+  grid-column: 2/3;
   
+}
+.contact-text {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.contact-links {
+  font-size: 10rem;
+  text-shadow: 2px 2px 3px black;
+  /* margin-right: 4rem; */
+  /* display: ie-flexnlin; */
+  /* height: 200px; */
+  width: 100%;
+}
+.fa-github, .fa-linkedin {
+  font-size: 2rem;
+  color: white;
+}
+
 
 /* TABLET */
 @media only screen and (min-width: 768px) { 
@@ -213,12 +220,36 @@ nav {
 .text span {
   position: absolute;
   left: 50%;
-  font-size: 1.2em;
-  transform-origin: 0 150px;
+  font-size: 1.5em;
+  transform-origin: 0 150px;  
+}
+.nav-link {
+  font-size: 2rem;
+}
+#about-me {
+  font-size: 2rem;
+}
+.random-fact {
+  font-size: 18 px;
+}
+.contact-links {
+  font-size: 15rem;
+  text-shadow: 2px 2px 3px black;
+  width: 100%;
+  align-self: center;
+}
+.fa-github, .fa-linkedin {
+  font-size: 2rem;
+  color: white;
 }
 }
+
+
 /* DESKTOP */
 @media only screen and (min-width: 992px) { 
+  .nav-link {
+    font-size: 2rem;
+  }
 .projects {
   grid-row: 1/2;
   justify-content: center;
@@ -236,3 +267,11 @@ nav {
   grid-row: 2/3;
 }
 }  
+footer{
+  font-size: 18rem;
+  width: 100%;
+}
+.fa-github, .fa-linkedin {
+  font-size: 2rem;
+  color: white;
+}

@@ -79,6 +79,7 @@ body {
   a {
     text-decoration: none;
 }
+
 nav {
   margin-right: 2rem;
   display: inline-flex;
@@ -101,7 +102,6 @@ nav {
   
   /* color: var(--main-gray); */
 }
-
   /* ADD ANOTHER ROW IF ADDING TEXT DIV*/
 .master-container {
   grid-template-columns: 1fr;
@@ -115,7 +115,7 @@ nav {
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: flex-end;
-  align-self: center;
+  align-self: end;
 }
 
 .first-container {

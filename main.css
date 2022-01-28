@@ -113,7 +113,7 @@ nav {
   font-size: 1.5rem;
   grid-column: 2/3;
   grid-row: 1/2;
-  justify-self: center;
+  justify-self: flex-end;
   align-self: center;
 }
 
@@ -155,30 +155,46 @@ nav {
   margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
- font-size: 1.5rem;
- text-shadow: 2px 2px 3px grey;
+  background-color: grey;
+  opacity: 60%;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 3px black;
 }
 .project1 {
   grid-column: 1/4;
   justify-self: center;
+  text-shadow: 2px 2px 3px black;
 }
 .project2 {
   grid-column: 1/4;
   justify-self: center;
+  text-shadow: 2px 2px 3px black;
 }
 .project3 {
   grid-column: 1/4;
   justify-self: center;
-}
+  text-shadow: 2px 2px 3px black;
 
+}
+h2 {
+  color: var(--midnight);
+  font-weight: bolder;
+  text-shadow: 2px 5px 3px white,
+               3px -5px 5px white,
+               0px 0px 2px white,
+               -2px 0px 3px white;;
+
+  margin-top: 12px;
+  font-size: 2rem;
+
+}
 #contact {
   /* display: inline-flex; */
   /* height: 200px; */
-  width: 100%;
   grid-row: 3/4;
   grid-column: 2/3;
-  
 }
+
 .contact-text {
   grid-row: 3/4;
   grid-column: 2/3;
@@ -186,18 +202,21 @@ nav {
   margin-right: 50px;
   margin-top: 20px;
   font-size: 1.1rem;
+  background-color: grey;
+  opacity: 70%;
 }
 
 .contact-links {
-  font-size: 10rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 3px black;
   /* margin-right: 4rem; */
   /* display: ie-flexnlin; */
   /* height: 200px; */
   width: 100%;
+  text-align: center;
 }
 .fa-github, .fa-linkedin {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
 }
 
@@ -233,13 +252,13 @@ nav {
   font-size: 18 px;
 }
 .contact-links {
-  font-size: 15rem;
   text-shadow: 2px 2px 3px black;
   width: 100%;
   align-self: center;
 }
 .fa-github, .fa-linkedin {
-  font-size: 2rem;
+  margin-top: 12px;
+  font-size: 3rem;
   color: white;
 }
 }
@@ -272,6 +291,6 @@ footer{
   width: 100%;
 }
 .fa-github, .fa-linkedin {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
 }

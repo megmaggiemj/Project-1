@@ -91,14 +91,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| About me section  | H | 1hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Hamburger | H | 1hr | did not include |
+| About me section  | 1.5H | 1hr | hr |
+| Regular Nav | 1.5H | 1hr | hr |  
 | Contact Form | H | 2.5hr|  hr | 
-| CSS Grid| H | 5hr | hr|
-| Rotating text | H | 2hrs|  hr | 
-| Responsive | H | 5hr | hr | hr |
-| Social Media Icons | L | .5hr |  hr |
+| CSS Grid| 7H | 5hr | hr|
+| Rotating text | 8H | 2hrs|  hr | 
+| Responsive | 6H | 5hr | hr | hr |
+| Social Media Icons | .5L | .5hr |  hr |
 | Total | H | 18 hrs| hrs |
 
 #### PostMVP
@@ -113,19 +113,39 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 22 hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+Circular text code via tutorial from "OnlineTutorials4Designers" youtube video https://youtu.be/zwl3kZPZ8H8
 jquery 
 bootstrap
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+```const allFacts = document.querySelector(".random-fact");//this is the html element//
+const megFacts = [ //this is the array of facts to be randomized//
+    "Thinks you\'re cool",
+    "Eats her vegetables", 
+    "Thinks omelettes are high maintenance scrambled eggs",
+    "Loves dill pickles", 
+    "Is a cat person",
+    "Likes sour candy", 
+    "Drinks a lot of coffee",
+    "Still watches cartoons",
+    "Loves learning new things!",
+    "Is excellent at parallel parking", 
+    "Makes great playlists",
+    "Can pronounce Worcestershire sauce…sometimes",
+    "Needs to go to the dentist",
+    "Probably just started a new hobby",
+    "Does not like reality tv" 
+]
+function randomFact() {
+    const randomIndex = Math.floor(Math.random() * megFacts.length); //this is the number in the array
+    const displayFact = megFacts[randomIndex]; //this is the random string
+    allFacts.innerText = "Meagan: " + displayFact;
+  }
+  setInterval(randomFact, 4000);
+```
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.

@@ -20,7 +20,13 @@ const megFacts = [ //this is the array of facts to be randomized//
     "Likes sour candy", 
     "Drinks a lot of coffee",
     "Still watches cartoons",
-    "Loves learning new things!"
+    "Loves learning new things!",
+    "Is excellent at parallel parking", 
+    "Makes great playlists",
+    "Can pronounce Worcestershire sauce…sometimes",
+    "Needs to go to the dentist",
+    "Probably just started a new hobby",
+    "Does not like reality tv" 
 ]
 function randomFact() {
     const randomIndex = Math.floor(Math.random() * megFacts.length); //this is the number in the array

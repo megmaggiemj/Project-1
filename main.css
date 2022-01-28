@@ -110,6 +110,7 @@ nav {
 }
 #about-me {
   color: var(--midnight);
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   grid-column: 2/3;
   grid-row: 1/2;
@@ -156,6 +157,7 @@ nav {
   margin-top: 20px;
   margin-bottom: 30px;
   background-color: grey;
+  font-family: 'Ubuntu', sans-serif;
   opacity: 60%;
   font-size: 1.5rem;
   text-shadow: 2px 2px 3px black;

@@ -23,7 +23,6 @@
     box-sizing: border-box;;
 }
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -85,13 +84,14 @@ nav {
   margin-right: 2rem;
   display: inline-flex;
   justify-content: flex-end;
-  position: fixed;
+  position: sticky;
   height: 40px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
   text-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px black;
 }
   
 .nav-link {

@@ -23,7 +23,7 @@ const megFacts = [ //this is the array of facts to be randomized//
     "Loves learning new things!",
     "Is excellent at parallel parking", 
     "Makes great playlists",
-    "Can pronounce Worcestershire sauce…sometimes",
+    "Can pronounce Worcestershire sauce...sometimes",
     "Needs to go to the dentist",
     "Probably just started a new hobby",
     "Does not like reality TV" 

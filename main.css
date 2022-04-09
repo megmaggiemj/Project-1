@@ -1,12 +1,13 @@
 /* COLORS APPLIED TO FULL PAGE */
 
 :root {
-  --teal: #07BEB8;
-  --ballet: #C4C4C4;
-  --midnight: #25283D;
-  --orchid: #8F3985;
-  --mint: #90ffdc;
-  --peach:#EFD9CE;
+    --teal: #07BEB8;
+    --ballet: #C4C4C4;
+    --midnight: #25283D;
+    --orchid: #8F3985;
+    --mint: #90ffdc;
+    --peach:#EFD9CE;
+    
   }
   
 /* DEFAULT STYLES USED */ 
@@ -27,11 +28,23 @@ body {
   align-items: center;
   min-height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1498511133332-ad66b117f533?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=402&q=80);
+    /* background image alt pics:  */
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  background-attachment: fixed;
   /* background-color: var(--mint); */
   padding: 10px;
+}
+a {
+  color: white;
+}
+a:hover{
+  color: peachpuff
+}
+.btn, .btn-primary {
+  background-color: #47403A;
+
 }
     /* CIRCLE/ROTATING TEXT VIA YOUTUBE - FULL LINK IN HTML */
     .circle {
@@ -50,7 +63,7 @@ body {
         width: 100%;
         height: 100%;
         text-shadow: 2px 2px 3px black;
-        animation: rotateText 15s linear infinite;
+        animation: rotateText 18s linear infinite;
     }
     .profile-picture {
       position: absolute;
@@ -75,22 +88,26 @@ body {
         left: 50%;
         font-size: 1.2em;
         transform-origin: 0 100px;
+        color: peachpuff;
     }
   a {
     text-decoration: none;
 }
 
-nav {
+#nav-bar {
   margin-right: 2rem;
   display: inline-flex;
   justify-content: flex-end;
   position: sticky;
-  height: 40px;
+  height: 55px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
   text-shadow: 2px 2px 3px black;
+  background-color: #474646a4;
+  box-shadow: 2px 2px 5px black;
+
 }
   
 .nav-link {
@@ -108,13 +125,15 @@ nav {
   display: grid;
 }
 #about-me {
-  color: var(--midnight);
+  color: white;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   grid-column: 2/3;
   grid-row: 1/2;
   justify-self: flex-end;
   align-self: end;
+  text-shadow: 2px 2px 5px black;
+
 }
 
 .first-container {
@@ -137,6 +156,7 @@ nav {
 } */
 .random-fact {
   font-size: 1.5rem;
+  color: peachpuff;
   text-shadow: 2px 2px 3px black;
   margin-top: 20px;
 }
@@ -146,6 +166,9 @@ nav {
   display: grid;
   grid-gap: 5px;
   grid-row: 2/3;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
 }
 .projects {     /*project text before images */
   grid-row: 1/2;
@@ -156,9 +179,8 @@ nav {
   margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: grey;
   font-family: 'Ubuntu', sans-serif;
-  opacity: 60%;
+  color: white;
   font-size: 1.5rem;
   text-shadow: 2px 2px 3px black;
 }
@@ -179,13 +201,9 @@ nav {
 
 }
 h2 {
-  color: var(--midnight);
+  color: white;
   font-weight: bolder;
-  text-shadow: 2px 5px 3px white,
-               3px -5px 5px white,
-               0px 0px 2px white,
-               -2px 0px 3px white;;
-
+  text-shadow: 2px 2px 5px black;
   margin-top: 12px;
   font-size: 2rem;
 
@@ -198,7 +216,7 @@ h2 {
 }
 
 .contact-text {
-  grid-row: 3/4;
+  grid-row: 1/4;
   grid-column: 2/3;
   margin-left: 50px;
   margin-right: 50px;
@@ -208,7 +226,8 @@ h2 {
   opacity: 70%;
 }
 
-.contact-links {
+.footer {
+  grid-column: 1/4;
   font-size: 3rem;
   text-shadow: 2px 2px 3px black;
   /* margin-right: 4rem; */
@@ -295,11 +314,13 @@ h2 {
   grid-row: 2/3;
 }
  
-footer {
+.footer {
   font-size: 18rem;
   width: 100%;
+  grid-column: 1/4;
 }
 .fa-github, .fa-linkedin {
   font-size: 3rem;
   color: white;
+}
 }

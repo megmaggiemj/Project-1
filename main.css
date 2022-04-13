@@ -42,11 +42,11 @@ a {
 a:hover{
   color: peachpuff
 }
-.btn, .btn-primary {
+.btn-primary {
   background-color: #47403A;
 
 }
-    /* CIRCLE/ROTATING TEXT VIA YOUTUBE - FULL LINK IN HTML */
+/* CIRCLE/ROTATING TEXT VIA YOUTUBE - FULL LINK IN HTML */
     .circle {
         position: relative;
         width: 200px;
@@ -56,6 +56,8 @@ a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 8%;
+        transform:scale(110%)
     }
     .text {
         position: absolute;
@@ -86,10 +88,12 @@ a:hover{
     .text span {
         position: absolute;
         left: 50%;
-        font-size: 1.2em;
+        font-size: 1.4rem;
         transform-origin: 0 100px;
         color: peachpuff;
     }
+    /* End Circle and Rotating Text */
+    
   a {
     text-decoration: none;
 }
@@ -105,7 +109,7 @@ a:hover{
   width: 100%;
   z-index: 10;
   text-shadow: 2px 2px 3px black;
-  background-color: #474646a4;
+  background-color: #474646b6;
   box-shadow: 2px 2px 5px black;
 
 }
@@ -130,10 +134,10 @@ a:hover{
   font-size: 1.5rem;
   grid-column: 2/3;
   grid-row: 1/2;
-  justify-self: flex-end;
+  justify-self: flex-start;
   align-self: end;
   text-shadow: 2px 2px 5px black;
-
+  margin: 8%;
 }
 
 .first-container {
@@ -245,30 +249,37 @@ h2 {
 /* TABLET */
 @media only screen and (min-width: 768px) { 
 .profile-picture {
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
 }
 .text {
   width: 100%;
   height: 100%;
+  transform: scale(120%);
 }
 .circle {
   height: 300px;
   width: 300px;
+  margin: 10%;
+  transform: scale(120%);
 }
   /* TEXT CIRCLE SIZE */
 .text span {
+  height: 320px;
+  width: 320px;
   position: absolute;
   left: 50%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   transform-origin: 0 150px;  
+  transform: scale(120%);
 }
 .nav-link {
   font-size: 2rem;
 }
 #about-me {
   font-size: 2rem;
-}
+  margin-left: 10%;
+} 
 .random-fact {
   font-size: 2rem;
 }
@@ -293,6 +304,19 @@ h2 {
   .nav-link {
     font-size: 3rem;
   }
+  .circle {
+    margin: 15%; 
+    transform: scale(130%);
+    
+  }
+#about-me {
+font-size: 2.5rem;
+margin-left: 10%;
+margin-right: 10%;
+}
+.random-fact{
+  font-size: 2rem;
+}
 .projects {
   grid-row: 1/2;
   justify-content: center;

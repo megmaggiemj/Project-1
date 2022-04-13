@@ -5,11 +5,11 @@ text.innerHTML = text.innerText.split("").map(
 `<span style="transform:rotate(${i * 7.7}deg)">${char}</span>`
 ).join("")
 //
-$(()=>{
-$( ".nav-link" ).on("hover", function() {
-    $(this).css("background", "red")
-});
-})
+// $(()=>{
+// $( ".nav-link" ).on("hover", function() {
+//     $(this).css("background", "red")
+// });
+// })
 const allFacts = document.querySelector(".random-fact");//this is the html element//
 const megFacts = [ //this is the array of facts to be randomized//
     "Thinks you\'re cool",

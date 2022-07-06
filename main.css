@@ -113,7 +113,6 @@ a:hover{
   text-shadow: 2px 2px 3px black;
   background-color: #474646b6;
   box-shadow: 2px 2px 5px black;
-
 }
   
 .nav-link {
@@ -121,8 +120,7 @@ a:hover{
   margin-right: 2rem;
   padding: 5px 10px;
   text-shadow: 2px 2px 3px black;
-  font-size: 1.5rem;
-
+  font-size: 1.3rem;
 }
   /* ADD ANOTHER ROW IF ADDING TEXT DIV*/
 .master-container {
